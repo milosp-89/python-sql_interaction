@@ -1,0 +1,14 @@
+use DeviceMagic_IRQ;
+
+ CREATE TABLE faisal_tbl (device_id nvarchar(MAX) NULL,
+ user_id nvarchar(MAX) NULL,
+ submitted_at datetime NULL,
+ received_at datetime NULL,
+ submission_id int NULL,
+ device_submission_identifier nvarchar(MAX) NULL,
+ Start datetime NULL,
+ Yes_No_Question nchar(5) NULL,
+ Select_Question nvarchar(250) NULL,
+ Date_Question date NULL,
+ Integer_Question int NULL,
+ Decimal_Question float NULL);
