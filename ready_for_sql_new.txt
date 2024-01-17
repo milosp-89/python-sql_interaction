@@ -1,6 +1,6 @@
-use DeviceMagic_IRQ;
+use DeviceMagic_xxx;
 
- CREATE TABLE faisal_tbl (device_id nvarchar(MAX) NULL,
+ CREATE TABLE tbl (device_id nvarchar(MAX) NULL,
  user_id nvarchar(MAX) NULL,
  submitted_at datetime NULL,
  received_at datetime NULL,
